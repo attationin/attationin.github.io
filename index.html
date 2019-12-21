@@ -9,10 +9,11 @@
   <p>Моя первая веб-страничка.</p>
   <p><a href="https://kgorlov.github.io/home">Это дразнилки Кирилла.</a></p>
   <p>Тут будет моя <em>дразнилка</em>!</p>
+  <h1>
   <script>
     var randomBodyPartsAns = ["хвост", "тело", "уши", "ноги"];
-    var randomBodyParts = ["глаз", "нос", "череп", "лицо","рука","нога","тело"];
-    var randomAdjectives = ["вонючая", "унылая", "дурацкая", "прекрасная", "грязная"];
+    var randomBodyParts = ["глаз", "нос", "череп", "подбородок","живот","кулак"];
+    var randomAdjectives = ["вонючий", "унылый", "дурацкий", "прекрасный", "грязный"];
     var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса", "рыба", "макака", "ворона"];
     // Выбор случайной части тела из массива randomBodyParts:
     var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
@@ -29,8 +30,8 @@
 <h1>
  <script>
      var randomBodyPartsAns = ["хвост", "тело", "уши", "ноги"];
-    var randomBodyParts = ["глаз", "нос", "череп", "лицо","рука","нога","тело"];
-    var randomAdjectives = ["вонючее", "унылое", "дурацкое", "прекрасноу", "грязное"];
+    var randomBodyParts = ["глаз", "нос", "череп", "подбородок","живот","кулак"];
+    var randomAdjectives = ["вонючий", "унылый", "дурацкий", "прекрасный", "грязный"];
     var randomWords = ["мухи", "выдры", "мартышки", "крысы", "рыбы", "макаки", "вороны"];
     // Выбор случайной части тела из массива randomBodyParts:
     var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
@@ -40,7 +41,7 @@
     var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
     // Соединяем случайные строки в предложение:
     var randomBodyPartsAn = randomBodyPartsAns[Math.floor(Math.random() * randomBodyPartsAns.length)];
-    var randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " ,чем " + randomBodyPartsAn + " " + randomWord + "!!!";
+    var randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " ,чем " + randomBodyPartsAns+ " " + randomWord + "!!!";
     document.write(randomInsult);
 </script>
 </h1>

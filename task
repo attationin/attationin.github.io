@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <title>Список друзей</title>
    <script>
+   document.write ("null")
    </script>
  </head>
  <body>

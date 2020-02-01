@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8" />
   <title>Список друзей</title>
-   <script>
-   document.write ("null")
-   </script>
- </head>
+  <script>
+     document.write ("null")
+  </script>
+  </head>
  <body>
-  <p>Привет, мир</p>
+   <p>Привет, мир</p>
  </body>
 </html>
